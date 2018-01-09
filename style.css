@@ -15,3 +15,33 @@ body{
 	/*color: white;*/
 	opacity: 0.7;
 }
+.quote{
+	border-left: solid white 5px;
+	padding-left: 10px;
+}
+
+.date{
+	color: #0d0d0d;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+}
+h2{
+	font-size: 2.0rem;
+}
+hr {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.after{
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
